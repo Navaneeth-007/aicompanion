@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Assist</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vision Assist</h1>
+        <div class="controls">
+            <button id="startReading" class="primary-btn">
+                Start Reading Page
+            </button>
+            <button id="pauseReading" class="secondary-btn">
+                Pause
+            </button>
+            <button id="describeImages" class="primary-btn">
+                Describe Images
+            </button>
+        </div>
+        <div class="settings">
+            <div class="setting-item">
+                <label for="speechRate">Speech Rate:</label>
+                <input type="range" id="speechRate" min="0.5" max="2" step="0.1" value="1">
+                <span id="rateValue">1x</span>
+            </div>
+            <div class="setting-item">
+                <label for="voiceSelect">Voice:</label>
+                <select id="voiceSelect"></select>
+            </div>
+        </div>
+        <div class="status">
+            <p id="statusText">Ready to assist</p>
+        </div>
+    </div>
+    <script src="popup.js" type="module"></script>
+</body>
+</html> 

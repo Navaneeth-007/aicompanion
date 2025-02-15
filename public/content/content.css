@@ -1,0 +1,9 @@
+.vision-assist-highlight {
+    outline: 2px solid #4CAF50 !important;
+    background-color: rgba(76, 175, 80, 0.1) !important;
+}
+
+.vision-assist-reading {
+    background-color: rgba(33, 150, 243, 0.1) !important;
+    outline: 2px solid #2196F3 !important;
+} 
